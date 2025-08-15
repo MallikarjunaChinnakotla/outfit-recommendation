@@ -9,17 +9,23 @@ The	project	was	 deployed	using	Streamlit,	providing			a		simple		and interactiv
 
 
 
-Introduction
+# Introduction
+
                Strike and Style is a deep learning-based project focused on automating the classification of fashion outfit images by analyzing key attributes such as outfit type, gender, and skin tone. As online shopping, virtual styling, and
 personalized fashion recommendations continue to grow, the need for fast,accurate,
 and scalable outfit classification systems becomes increasingly critical.Traditionally, classifying fashion images has been a manual, labor-intensive process prone to human error and inconsistencies. Strike and Style addresses	these challenges	by developing an intelligent	system that can automatically categorize a wide range of outfit images with high precision, helping to streamline operations in the fashion and retail industries.
+
 	Outfit classification presents unique challenges due to the diversity in clothing designs,human poses, image lighting, and individual appearances. Variations in skin tones,	body types,and cultural fashion trends further complicate the task. To tackle these complexities, Strike and Style employs a fine-tuned EfficientNetB3 convolutional neural network (CNN), a modern deep learning architecture known for its ability to extract meaningful features from complex images while maintaining computational	efficiency.	Using	transfer learning	techniques,	the		project adapts this powerful	model to	specifically recognize different outfit types across varied demographic factors.
+ 
 The		project		dataset	consists		 of	carefully	curated		fashion		images categorized into multiple outfit types such as traditional wear, western wear, casual,	formal,		ethnic,		and		party	outfits.		Each		category		further		considers different			genders	and	skin		tones,		ensuring	the model	learns diverse	and inclusive representations. Data augmentation strategies like random rotations, zooms,		flips,	and			brightness			adjustments	are applied to enhance model generalization and prevent overfitting.
 By automating the fashion classification process, Strike and Style offers a scalable solution for e-commerce websites, virtual stylists, mobile fashion apps, and smart wardrobe management systems. The project ultimately aims to reduce manual labeling effort, boost personalization, and enhance the overall fashion experience for users around the world.
-Overview
+
+# Overview
 
 The project "Strike and Style" aims to revolutionize the way outfits are classified	and	recommended	in	the	fashion	industry	using	deep	learning. Imagine you’re shopping online, and you want to find an outfit that perfectly matches your preferences—whether that’s based on garment type, gender, or skin tone. Instead of sifting through endless categories, this system instantly identifies the right outfit based on these visual cues, making the entire shopping experience faster, easier, and more personalized.
+
 By using a carefully curated dataset	 of outfit images,organized bydifferent categories, genders, and skin tones, the system trains a deep learning model (EfficientNetB3) to recognize these key features. It then fine-tunes the model to make sure the predictions are as accurate as possible. The system takes images, extracts their key visual details, and classifies them into predefined categories, offering fast and accurate recommendations.
+
 "Strike and Style" is not just a tool for fashion retailers but a powerful solution for personalized shopping experiences. By reducing the time spent manually		browsing	through	categories,users	can	instead	 get	instant recommendations based on their specific preferences. For fashion brands and e- commerce platforms, this means improved customer satisfaction, as the system makes	it	easier	for		customers		to	find	exactly	what	they	want,		faster. Additionally, retailers can benefit from better-targeted marketing and product recommendations,driving more sales and improving user retention.Furthermore,
 this system has the potential to significantly enhance the overall shopping
 experience by offering a more inclusive approach to fashion. By taking into account	skin	tone,	which	is	often	overlooked	in	traditional	outfit
